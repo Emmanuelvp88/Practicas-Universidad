@@ -1,0 +1,23 @@
+@font-face {
+    font-family: devroye;
+    src: url("DEVROYE_.ttf");
+}
+
+*{
+    font-family: devroye;
+}
+a {
+    text-decoration: none;
+}
+.primeros>li>a{
+    color: #00f;
+    background-color: rgba(42, 165, 236, 0.514);
+}
+.segundos>li>a{
+    color: rgb(31, 182, 31);
+    background-color: rgba(0, 250, 96, 0.514);
+}
+.tercero>li>a{
+    color: rgb(148, 10, 10);
+    background-color: rgba(250, 8, 0, 0.514);
+}

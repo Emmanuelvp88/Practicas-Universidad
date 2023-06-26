@@ -1,0 +1,34 @@
+A continuación, deberás realizar los siguientes ejercicios:
+
+1. Crea una página web con el nombre Ejercicio1.html, deberá contener lo siguiente:
+a) Titulo: Los (estados, comunas, provincias) según aplique de mi país.
+b) Una tabla con los estados de tu país.
+c) Esta tabla deberá tener como cabecera (estado, comuna, provincia) según
+aplique.
+
+2. Crea una página web con el nombre Ejercicio2.html, deberá contener lo siguiente:
+a) Titulo: Lista de editores de texto.
+b) Una lista de editores de texto que te permitan programar páginas web (al
+menos 10 editores).
+c) Cada elemento de la lista me deberá de mandar a la pagina del editor
+(Nota: Deberá abrirse en una nueva pestaña o ventana, no puede
+refrescar la página actual).
+
+3. Crea una página web con el nombre Ejercicio3.html, deberá contener lo siguiente:
+a) Título: Mis pasatiempos.
+b) Una lista con tus pasatiempos (al menos 3) y con una imagen de
+representación (Nota: No olvides anexar la ruta de la imagen en caso de
+que sea de manera local).
+
+4. Crea una página web con el nombre Ejercicio4.html, deberá contener lo siguiente:
+a) Título: Mi primer formulario.
+b) Mostrar un formulario con al menos dos campos y un botón de submit:
+a. Un campo para usuario
+b. Un campo para contraseña
+(Nota: No olvides que cada campo deberá ser del tipo indicado).
+
+Al finalizar deberás colocar las soluciones de los ejercicios en un archivo con extensión
+.zip o .rar dentro de una carpeta llamada Evaluación 2 y deberás subirlo en el apartado
+
+de entrega de Evaluación 2 (No olvides adjuntar el archivo previo al envío).
+

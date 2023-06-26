@@ -1,0 +1,37 @@
+@font-face {
+    font-family:italic;
+    src: url('italic.ttf');
+}
+*{
+    font-family: italic;
+    margin: 0;
+    padding: 0;
+}
+ul{
+    list-style: none;
+}
+
+img{
+    width: 300px;
+}
+#titulo{
+    text-align: center;
+    font-size: 2em;
+    font-weight: bold;
+    background-color: #ffddfd;
+}
+#first-li{
+    color: red;
+    background-color: black;
+    text-align: center;
+}
+#secon-li{
+    color: rgba(5, 209, 245, 0.774) ;
+    background-color: rgb(241, 131, 5);
+    text-align: center;
+}
+#third-li{
+    color: rgb(20, 16, 240) ;
+    background-color: rgb(5, 241, 221);
+    text-align: center;
+}

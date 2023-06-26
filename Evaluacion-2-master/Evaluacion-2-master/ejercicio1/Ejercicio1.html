@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estados de mi Pais</title>
+</head>
+<header>
+    <style>
+        * {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        h1 {
+            text-align: center;
+        }
+
+        td {
+            border: 1px solid black;
+            text-align: center;
+        }
+
+        #encabezado {
+            font-size: 1.5em;
+            background-color: rgb(64, 153, 204);
+        }
+
+        .estado {
+            background-color: rgb(43, 189, 7);
+        }
+
+        .abreviatura {
+            background-color: rgb(15, 233, 178);
+        }
+
+        .capital {
+            background-color: rgb(143, 29, 189);
+        }
+
+        #ultimaFila>td {
+            color: #f00;
+            border: 3px solid #000;
+            font-size: 1.3em;
+        }
+    </style>
+</header>
+
+<body>
+    <h1>Estados y capitales de México</h1>
+    <table>
+        <tr id="encabezado">
+            <td><b>Estado</b></td>
+            <td><b>Abreviatura(ISO)</b></td>
+            <td><b>Capital</b></td>
+        </tr>
+        <tr>
+            <td class="estado">Aguascalintes</td>
+            <td class="abreviatura">AGS</td>
+            <td class="capital">Aguascalintes</td>
+        </tr>
+        <tr>
+            <td class="estado">Baja California</td>
+            <td class="abreviatura">BCN</td>
+            <td class="capital">Mexicali</td>
+        </tr>
+        <tr>
+            <td class="estado">Baja California Sur</td>
+            <td class="abreviatura">BCS</td>
+            <td class="capital">La Paz</td>
+        </tr>
+        <tr>
+            <td class="estado">Campeche</td>
+            <td class="abreviatura">CAM</td>
+            <td class="capital">san Francisco de Campeche</td>
+        </tr>
+        <tr>
+            <td class="estado">Chiapas</td>
+            <td class="abreviatura">CHP</td>
+            <td class="capital">Tuxtla Gutiérrez</td>
+        </tr>
+        <tr>
+            <td class="estado">Chihuahua</td>
+            <td class="abreviatura">CHI</td>
+            <td class="capital">Chihuahua</td>
+        </tr>
+        <tr>
+            <td class="estado">Ciudad de México</td>
+            <td class="abreviatura">DIF</td>
+            <td class="capital">Ciudad de México</td>
+        </tr>
+        <tr>
+            <td class="estado">Coahuila</td>
+            <td class="abreviatura">COA</td>
+            <td class="capital">Saltillo</td>
+        </tr>
+        <tr>
+            <td class="estado">Colima</td>
+            <td class="abreviatura">COL</td>
+            <td class="capital">Colima</td>
+        </tr>
+        <tr>
+            <td class="estado">Durango</td>
+            <td class="abreviatura">DUR</td>
+            <td class="capital">Victoria de Durango</td>
+        </tr>
+        <tr>
+            <td class="estado">Guanajuato</td>
+            <td class="abreviatura">GTO</td>
+            <td class="capital">Guanajuato</td>
+        </tr>
+        <tr>
+            <td class="estado">Guerrero</td>
+            <td class="abreviatura">GRO</td>
+            <td class="capital">Chilpancingo</td>
+        </tr>
+        <tr>
+            <td class="estado">Hidalgo</td>
+            <td class="abreviatura">HGO</td>
+            <td class="capital">Pachuca de Soto</td>
+        </tr>
+        <tr>
+            <td class="estado">Jalisco</td>
+            <td class="abreviatura">JAL</td>
+            <td class="capital">Guadalajara</td>
+        </tr>
+        <tr>
+            <td class="estado">Mexico</td>
+            <td class="abreviatura">MEX</td>
+            <td class="capital">Toluca de Lerdo</td>
+        </tr>
+        <tr>
+            <td class="estado">Michoacan</td>
+            <td class="abreviatura">MIC</td>
+            <td class="capital">Morelia</td>
+        </tr>
+        <tr>
+            <td class="estado">Morelos</td>
+            <td class="abreviatura">MOR</td>
+            <td class="capital">Cuernavaca</td>
+        </tr>
+        <tr>
+            <td class="estado">Nayarit</td>
+            <td class="abreviatura">NAY</td>
+            <td class="capital">Tepic</td>
+        </tr>
+        <tr>
+            <td class="estado">Nuevo Leon</td>
+            <td class="abreviatura">NLE</td>
+            <td class="capital">Monterrey</td>
+        </tr>
+        <tr>
+            <td class="estado">Oaxaca</td>
+            <td class="abreviatura">OAX</td>
+            <td class="capital">Aoxaca de Juarez</td>
+        </tr>
+        <tr>
+            <td class="estado">Puebla</td>
+            <td class="abreviatura">PUE</td>
+            <td class="capital">Puebla de Zaragoza</td>
+        </tr>
+        <tr>
+            <td class="estado">Queretaro</td>
+            <td class="abreviatura">QRO</td>
+            <td class="capital">Santiago de Queretaro</td>
+        </tr>
+        <tr>
+            <td class="estado">Quintana Roo</td>
+            <td class="abreviatura">ROO</td>
+            <td class="capital">Chetumal</td>
+        </tr>
+        <tr>
+            <td class="estado">San Luis Potosi</td>
+            <td class="abreviatura">SLP</td>
+            <td class="capital">San Luis Potosi</td>
+        </tr>
+        <tr>
+            <td class="estado">Sinaloa</td>
+            <td class="abreviatura">SIN</td>
+            <td class="capital">Culiacan Rosales</td>
+        </tr>
+        <tr>
+            <td class="estado">Sonora</td>
+            <td class="abreviatura">SON</td>
+            <td class="capital">Hermosillo</td>
+        </tr>
+        <tr>
+            <td class="estado">Tabasco</td>
+            <td class="abreviatura">TAB</td>
+            <td class="capital">Villahermosa</td>
+        </tr>
+        <tr>
+            <td class="estado">Tamaulipas</td>
+            <td class="abreviatura">TAM</td>
+            <td class="capital">Ciudad Victoria</td>
+        </tr>
+        <tr>
+            <td class="estado">Tlaxcala</td>
+            <td class="abreviatura">TLX</td>
+            <td class="capital">Tlaxcala de Xicohtencatl</td>
+        </tr>
+        <tr>
+            <td class="estado">Veracuz</td>
+            <td class="abreviatura">VER</td>
+            <td class="capital">Xalapa-Enriquez</td>
+        </tr>
+        <tr>
+            <td class="estado">Yucatan</td>
+            <td class="abreviatura">YUC</td>
+            <td class="capital">Merida</td>
+        </tr>
+        <tr id="ultimaFila">
+            <td class="estado">Zacatecas</td>
+            <td class="abreviatura">ZAC</td>
+            <td class="capital">Zacatecas</td>
+        </tr>
+    </table>
+</body>
+
+</html>
