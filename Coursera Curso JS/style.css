@@ -1,0 +1,16 @@
+h1{
+    font-size: 2em;
+}
+.boton1 {
+    display:inline;
+    font-size: 2em;
+    outline: solid green 2px;
+    border: 2px solid red;
+
+    padding: 0px 20px;
+}
+.boton2{
+    display:inline;
+    font-size: 2em;
+    border: 2px solid red;
+}
