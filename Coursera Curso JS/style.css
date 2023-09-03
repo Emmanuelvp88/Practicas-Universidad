@@ -1,16 +1,48 @@
-h1{
-    font-size: 2em;
+/*Name this external file gallery.css*/
+body {
+    margin: 2%;
+    border: 1px solid black;
+    background-color: #b3b3b3;
 }
+
+#image {
+    line-height: 650px;
+    width: 575px;
+    height: 650px;
+    border: 5px solid black;
+    margin: 0 auto;
+    background-color: #8e68ff;
+    background-image: url('');
+    background-repeat: no-repeat;
+    color: #FFFFFF;
+    text-align: center;
+    background-size: 100%;
+    margin-bottom: 25px;
+    font-size: 150%;
+}
+
+.preview {
+    width: 10%;
+    margin-left: 17%;
+    border: 10px solid black;
+}
+
+img {
+    width: 95%;
+}
+
+
 .boton1 {
-    display:inline;
+    display: inline;
     font-size: 2em;
     outline: solid green 2px;
     border: 2px solid red;
 
     padding: 0px 20px;
 }
-.boton2{
-    display:inline;
+
+.boton2 {
+    display: inline;
     font-size: 2em;
     border: 2px solid red;
 }
