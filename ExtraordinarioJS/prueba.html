@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>8500810c</title>
+</head>
+
+<body>
+    <h1>Welcome to my guessing game</h1>
+    <script>
+        alert(
+            "Este programa se encargara de comparar si el dato que usted ingresa, es igual a un dato ya preestablecido."
+        );
+        let parametro = parseInt(prompt("Ingrese su dato aqui: "));
+    </script>
+
+    <p></p>
+</body>
+
+</html>
+<php>
+if ( ! isset($_GET[parametro]) ) { 
+    echo("Falta el parámetro estimado");
+} else if ( strlen($_GET['guess']) < 1 ) {
+    echo("Su conjetura es demasiado corta");
+} else if ( ! is_numeric($_GET['guess']) ) {
+    echo("Su conjetura no es un número");
+} else if ( $_GET['guess'] < 42 ) {
+    echo("Su estimación es demasiado baja");
+} else if ( $_GET['guess'] >
+42 ) { echo("Su suposición es demasiado alta"); } else { echo("Felicitaciones,
+tiene razón"); } 
+</php>
